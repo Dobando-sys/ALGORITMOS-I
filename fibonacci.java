@@ -1,3 +1,8 @@
+/*
+ * Crea una serie de Fibonacci con un número límite indicado por el usuario.
+ * Creado por Estevan Obando y Dayana Carreño
+ */
+
 import java.util.Scanner;
 
 public class fibonacci {
