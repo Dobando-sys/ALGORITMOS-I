@@ -5,12 +5,12 @@
 
  import java.util.Scanner;
 
- public class ejercicioalgoritmos {
+ public class calculadoraConFactorial {
      public static void main(String[] args) {
          int numA = 0, numB = 0;
          int varControl = 0;
          int factorial = 1;
-         int contador = numA;
+         int contador=1;
  
          Scanner scanner = new Scanner(System.in);
  
@@ -20,7 +20,7 @@
          "2. Restar dos números\r\n" + //
          "3. Multiplicar dos números\r\n" + //
          "4. Dividir dos números\r\n" + //
-         "5. Obtener los factores de un número\r\n" + //
+         "5. Obtener el factorial de un número\r\n" + //
          "6. Salir\r\n");
 
  System.out.print("Opción seleccionada: ");
@@ -66,11 +66,13 @@
      case 5: 
          System.out.print("Ingrese número deseado para encontrar su factorial: ");
          numA = scanner.nextInt();
+         contador = numA;
+         factorial = 1;
          while (numA != 0) {
             factorial = factorial * numA;
             numA--;
-            System.out.println("El factorial de su número es: " +factorial);
          }
+         System.out.println("El factorial de "+ contador + " es: " +factorial +"\n");
          break; 
      case 6:
          System.out.println("Gracias, hasta pronto!");
