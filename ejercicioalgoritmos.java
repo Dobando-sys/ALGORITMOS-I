@@ -1,3 +1,8 @@
+ /*
+ * Modifica el ejercicio de clase para incluir el factorial
+ * Creado por Estevan Obando y Dayana Carreño
+ */
+
  import java.util.Scanner;
 
  public class ejercicioalgoritmos {
