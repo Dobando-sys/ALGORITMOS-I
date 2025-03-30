@@ -1,5 +1,14 @@
+//*
+//Un programa solicita repetidamente la edad de varias personas
+//hasta que el usuario ingresa un valor negativo.
+//Al finalizar, el programa muestra cuántas personas
+//son menores de edad (menos de 18 años) y cuántas son mayores de edad.
+//
+//Creado por Dayana Carreño y Estevan Obando
+//*
+
 import java.util.Scanner;
-public class evaluacionedades {
+public class evaluacionEdades {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int edad = 0;

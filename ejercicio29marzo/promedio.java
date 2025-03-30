@@ -1,3 +1,12 @@
+//*
+//Crea un programa que solicite continuamente al usuario ingresar números enteros. 
+//El programa finalizará cuando el usuario ingrese el número cero (0). 
+//Al finalizar, el programa debe calcular y mostrar el promedio 
+//de todos los números positivos ingresados (mayores a cero). 
+//Si no se ingresa ningún número positivo, debe mostrar un mensaje indicando esto.
+//
+//Creado por Dayana Carreño y Estevan Obando
+//*
 import java.util.Scanner;
 public class promedio {
     public static void main(String[]args){

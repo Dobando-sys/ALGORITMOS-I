@@ -1,0 +1,3 @@
+#Esta carpeta contiene los archivos de ejercicios de la clase del 25 de marzo:
+    #"calculadoraConFactorial.java" Agrega la opción de cálcular el factorial de un número a la calculadora realizada en clase.
+    #"fibonacci.java" Cálcula la serie fibonacci de una serie de números que ingrese el usuario.

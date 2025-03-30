@@ -1,1 +1,5 @@
-#ESta carpeta contiene los archivos de ejercicios de la clase virtual del 29 de marzo
+#Esta carpeta contiene los archivos de ejercicios de la clase virtual del 29 de marzo:
+    #"evaluacionEdades.java" Evalua las edades ingresadas (mayor y menor de edad).
+    #"notas.java" Evalua una serie de notas ingresadas (número de aprobados y reprobados).
+    #"paresImpares.java" Evalua una serie de números enteros (pares e impares).
+    #"promedio.java" Evalua el promedio de números ingresadas.
