@@ -1,16 +1,19 @@
 //* 
-//Agregar descripión de la presentación
-//Creado por Estevan Obando y Dayana Carreño
+//Un docente quiere ingresar las calificaciones de sus estudiantes (entre 0 y 100).
+//El programa termina cuando ingresa -1. Al finalizar, el programa debe mostrar
+//cuántos estudiantes aprobaron (nota ≥ 60) y cuántos reprobaron.
 //
+//Creado por Dayana Carreño y Estevan Obando
+//*
 
 import java.util.Scanner;
 
 public class notas {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        short nota = 0; //Variable que representa la nota del alumno
-        int aprobados = 0, reprobados = 0, total = 0; //Variables que representan la cantidad de alumnos aprobados, reprobados y el total de alumnos
-
+        //nota: Variable que representa la nota del alumno
+        //aprobados, reprobados, total: Variables que representan la cantidad de alumnos aprobados, reprobados y el total de alumnos, respectivamente.
+        short nota = 0, aprobados = 0, reprobados = 0, total = 0; 
         // Si la nota es -1, se sale del bucle.
         System.out.println("Ingrese la nota de los alumnos (entre 0 y 100). Para cerrar el programa, ingrese -1.");
         while (nota != -1) {
