@@ -28,7 +28,7 @@ public class evaluacionEdades {
             }
         }
 
-        sc.close(); // Cerrar el Scanner correctamente
+        sc.close();
         System.out.println("Las personas mayores de edad son: " + contadorMayores);
         System.out.println("Las personas menores de edad son: " + contadorMenores);
     }
