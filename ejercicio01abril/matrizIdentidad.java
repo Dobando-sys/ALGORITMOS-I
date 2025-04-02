@@ -13,7 +13,7 @@ public class matrizIdentidad {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese el tamaño de la matriz identidad: ");
         int n = sc.nextInt();
-        int[][] matriz = new int[n][n];
+        byte[][] matriz = new byte[n][n];
         sc.close();
 
         for (int i = 0; i < n; i++) {
