@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class conteoVocales {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int contadorVocales = 0; //VAriable que aumenta una unidad cada vez que se encuentra una vocal
+        short contadorVocales = 0; //VAriable que aumenta una unidad cada vez que se encuentra una vocal
         String [] letra = new String[10]; //Vector que almacena las letras ingresadas por usuario
 
         System.out.println("Ingrese 10 letras: ");

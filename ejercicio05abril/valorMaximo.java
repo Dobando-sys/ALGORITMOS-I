@@ -14,7 +14,7 @@ public class valorMaximo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int [] numeros = new int[8];
-        int maximo = 0; //Variable que almacena el número máximo
+        
         short posicion = 0; // variable para la posición. EScogida como short, pues el máximo de la posición es 8
         System.out.println("Introduzca ocho (08) números enteros: ");
         for(short i=0; i<8;i++){
@@ -23,8 +23,9 @@ public class valorMaximo {
             }
         sc.close();
         
+        int maximo = numeros[0]; //Variable que almacena el número máximo
         //Recorre el vector para encontrar el número mayor
-        for(short i=0; i<8;i++){
+        for(short i=1; i<8;i++){
             if(numeros[i] > maximo){
                 maximo = numeros[i];
                 posicion = i;
