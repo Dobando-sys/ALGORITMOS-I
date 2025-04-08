@@ -44,7 +44,7 @@ El repositorio está dividido en las siguientes carpetas:
 ## Requisitos
 
 Antes de usar los algoritmos, asegúrate de tener instalados los siguientes programas o librerías:
-- [Requisitos específicos de cada lenguaje o entorno de desarrollo].
+- [JAVA JDK].
 
 ## Cómo usar
 
