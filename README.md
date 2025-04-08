@@ -1,6 +1,6 @@
 # ALGORITMOS-I
 
-Este repositorio contiene implementaciones de diversos algoritmos desarrollados como ejercicios de clase de ALFORITMOS 1, UCOMPENSAR.
+Este repositorio contiene implementaciones de diversos algoritmos desarrollados como ejercicios de clase de ALGORITMOS 1, UCOMPENSAR.
 ## Estructura del Repositorio
 
 El repositorio está dividido en las siguientes carpetas:
