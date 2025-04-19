@@ -5,7 +5,6 @@
 //
 //Creado por Dayana Carreño y Estevan Obando
 //*/
-package MOM2.taller;
 
 import java.util.Scanner;
 
@@ -46,11 +45,6 @@ public class registroTemperatura {
         System.out.println("La temperatura promedio es: " + promedio+" grados celsius");
         System.out.println("La temperatura máxima registrada es: " + max+" grados celsius");
         System.out.println("La temperatura mínima registrada es: " + min+" grados celsius");
-        if (promediocalidos == 0){
-            System.out.println("No se registraron días cálidos.");
-        } else {
-            System.out.println("La cantidad de días calidos (>25°C) fueron " + (promediocalidos));
-        }
-        
+        System.out.println((promediocalidos == 0) ?  "No se registraron días cálidos." : "La cantidad de días cálidos (>25°C) fueron " + (promediocalidos));
         }
     }
