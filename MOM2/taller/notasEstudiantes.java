@@ -20,15 +20,28 @@ public class notasEstudiantes {
         int aprobados = 0;
         int reprobados = 0;
 
-        System.out.println("\nIngrese la nota de sus estudiantes: ");
+        System.out.println("\nIngrese la nota de sus estudiantes (valores entre 0 y 10). ");
+        System.out.println("Si la nota es menor a 0, se asignará 0. Si es mayor a 10, se asignará 10.");
         for(int i=0;i<CantidadEstudiantes;i++){
             double suma = 0;
             for(int j=0;j<3;j++){
                 System.out.println("\nEstudiante " + (i+1) + ", examen " + (j+1) + ": ");
-                notas[i][j] = sc.nextDouble();
+                double nota = sc.nextDouble();
+                if(nota < 0 ){ // Validar que la nota esté entre 0 y 10.
+                    notas[i][j] = 0;
+                }else if(nota > 10){
+                    notas[i][j] = 10;
+                }else{
+                    notas[i][j] = nota;
+                }
                 suma += notas[i][j]; // Almacenar la suma de las notas de cada estudiante en la asignatura.
             }
             promedio[i] = suma/3; //Vector para almacenar el promedio de cada estudiante.
+            if(promedio[i] >= 6){ // Si el promedio es mayor o igual a 6, se considera aprobado.
+                aprobados++;
+            }else{ 
+                reprobados++;
+            }
         }
         sc.close();
         
