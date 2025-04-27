@@ -33,6 +33,7 @@ public class contadorNumeros {
         int negativos = 0;
         int cero = 0;
         boolean terminar = false;
+        System.out.println("\n=================================================\n");
         while (!terminar) {
             System.out.print("Ingrese un número (para terminar ingrese -1): ");
             int numero = sc.nextInt();
