@@ -1,8 +1,14 @@
+//*
+//Programa que cuenta la cantidad de números positivos, negativos y ceros ingresados por el usuario.
+//
+//Creado por Dayana Carreño y Estevan Obando
+//*/
+
 package MOM3.ejercicio_2;
 import java.util.Scanner;
 
 public class contadorNumeros {
-    private static Scanner sc = new Scanner(System.in); // Scanner global
+    private static Scanner sc = new Scanner(System.in); // Scanner global. Se cierra en el método main.
 
     public static void main(String[] args){
         menu();
@@ -29,9 +35,9 @@ public class contadorNumeros {
     }
 
     private static void contarNumeros(){
-        int positivos = 0;
-        int negativos = 0;
-        int cero = 0;
+        int positivos = 0; //Contador de números positivos
+        int negativos = 0; //Contador de números negativos
+        int cero = 0; //Contador de ceros
         boolean terminar = false;
         System.out.println("\n=================================================\n");
         while (!terminar) {
