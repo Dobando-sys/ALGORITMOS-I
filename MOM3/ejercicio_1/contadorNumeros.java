@@ -4,7 +4,6 @@
 //Creado por Dayana Carreño y Estevan Obando
 //*/
 
-package MOM3.ejercicio_2;
 import java.util.Scanner;
 
 public class contadorNumeros {
